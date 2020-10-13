@@ -16,10 +16,15 @@
 	</metadata>
 	<files>
 		<!--Support net46+, netcore3, net5, uap, c++ -->
-		<file src="..\..\_build\x64\Debug\SimpleMathComponent\bin\SimpleMathComponent\SimpleMathComponent.winmd" target="lib\netcoreapp3.0\SimpleMathComponent.winmd" />
-		<file src="..\..\_build\x64\Debug\SimpleMathComponent\bin\SimpleMathComponent\SimpleMathComponent.winmd" target="lib\uap10.0\SimpleMathComponent.winmd" />
-		<file src="..\..\_build\x64\Debug\SimpleMathComponent\bin\SimpleMathComponent\SimpleMathComponent.winmd" target="lib\net46\SimpleMathComponent.winmd" />
-		<file src="..\..\_build\x64\Debug\SimpleMathProjection\bin\SimpleMathProjection.dll" target="lib\net5.0\SimpleMathProjection.dll" />
-		<file src="..\..\_build\x64\Debug\SimpleMathComponent\bin\SimpleMathComponent\SimpleMathComponent.dll" target="runtimes\win10-x64\native\SimpleMathComponent.dll" />
+		<file src="..\..\_build\x64\Debug\SimpleMathComponent\bin\SimpleMathComponent\SimpleMathComponent.winmd" 
+			  target="lib\netcoreapp3.0\SimpleMathComponent.winmd" />
+		<file src="..\..\_build\x64\Debug\SimpleMathComponent\bin\SimpleMathComponent\SimpleMathComponent.winmd" 
+			  target="lib\uap10.0\SimpleMathComponent.winmd" />
+		<file src="..\..\_build\x64\Debug\SimpleMathComponent\bin\SimpleMathComponent\SimpleMathComponent.winmd" 
+			  target="lib\net46\SimpleMathComponent.winmd" />
+		<file src="..\..\_build\x64\Debug\SimpleMathProjection\bin\SimpleMathProjection.dll" 
+			  target="lib\net5.0\SimpleMathProjection.dll" />
+		<file src="..\..\_build\x64\Debug\SimpleMathComponent\bin\SimpleMathComponent\SimpleMathComponent.dll" 
+			  target="runtimes\win10-x64\native\SimpleMathComponent.dll" />
 	</files>
 </package>
