@@ -32,4 +32,6 @@ namespace winrt::SimpleMathComponent::implementation
 			return -1;
 		return firstNumber / secondNumber;
 	}
+
+
 }
