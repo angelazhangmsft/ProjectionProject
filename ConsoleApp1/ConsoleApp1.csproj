@@ -4,19 +4,17 @@
     <OutputType>Exe</OutputType>
     <TargetFramework>net5.0-windows10.0.19041.0</TargetFramework>
     <Platforms>x64</Platforms>
-	  <CsWinRTWindowsMetadata>10.0.19041.0</CsWinRTWindowsMetadata>
   </PropertyGroup>
 
   <ItemGroup>
-    <!--<PackageReference Include="SimpleMathComponent" Version="0.1.2-prerelease" />-->
     <PackageReference Include="Microsoft.VCRTForwarders.140" Version="1.0.6" />
-    <!--<PackageReference Include="Microsoft.Windows.CsWinRT" Version="1.1.2" />-->
+    <!-- To remove the NETSDK 1130 error, it requires the consuming app to reference the CsWinRT package. This shouldn't be required by consumers. -->
+    <!--<PackageReference Include="Microsoft.Windows.CsWinRT" Version="1.1.3" />-->
   </ItemGroup>
 
   <ItemGroup>
     <ProjectReference Include="..\SimpleMathProjection\SimpleMathProjection.csproj">
     </ProjectReference>
   </ItemGroup>
-<!---->
 
 </Project>
