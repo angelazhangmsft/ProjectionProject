@@ -18,3 +18,5 @@ The NETSDK1130 error occurs because SimpleMathComponent.winmd is transitively pa
  ```
  
  However, this also blocks the implementation dll (SimpleMathComponent.dll) from the consuming app **ConsoleApp1**, which causes a runtime error.
+ 
+ Update: I've added **ConsoleAppPackageRef** to demonstrate referencing the interop project as a package reference. The interop project builds a package with a nuspec file - more details are in these docs: https://docs.microsoft.com/en-us/windows/uwp/csharp-winrt/net-projection-from-cppwinrt-component
