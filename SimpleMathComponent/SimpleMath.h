@@ -21,6 +21,7 @@ namespace winrt::SimpleMathComponent::implementation
         double subtract(double firstNumber, double secondNumber);
         double multiply(double firstNumber, double secondNumber);
         double divide(double firstNumber, double secondNumber);
+        Windows::Devices::Geolocation::Geolocator returnGeolocator();
     };
 }
 

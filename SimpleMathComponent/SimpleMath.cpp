@@ -33,5 +33,8 @@ namespace winrt::SimpleMathComponent::implementation
 		return firstNumber / secondNumber;
 	}
 
-
+	Windows::Devices::Geolocation::Geolocator SimpleMath::returnGeolocator()
+	{
+		return Windows::Devices::Geolocation::Geolocator();
+	}
 }
